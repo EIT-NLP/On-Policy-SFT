@@ -22,7 +22,7 @@
 - **[2026.02.13]** arXiv preprint release: [On-Policy Supervised Fine-Tuning for Efficient Reasoning](https://arxiv.org/abs/2602.13407).
 
 > [!NOTE]
-> This repository focuses on on-policy SFT training, a simple yet effective method that can reduce CoT length by up to 80% while maintaining original accuracy, surpassing more complex RL-based methods.
+> This repository focuses on on-policy SFT training, a simple yet effective method that can reduce CoT length by up to **80**% while maintaining original accuracy, surpassing more complex RL-based methods.
 
 ## 🛠️ Setup
 
