@@ -3,11 +3,6 @@
     <td style="width: 45%;"><img src="figures/paper_fig1.png" alt="paper_figure_1" style="width: 100%;"></td>
     <td style="width: 45%;"><img src="figures/paper_fig2.png" alt="paper_figure_2" style="width: 100%;"></td>
   </tr>
-  <tr>
-    <td colspan="2" style="text-align: center;">
-      <img src="figures/paper_fig3.png" alt="paper_figure_3" style="width: 100%;">
-    </td>
-  </tr>
 </table>
 
 # On-Policy SFT
@@ -92,3 +87,4 @@ If you find our work useful, please consider citing our paper:
       url={https://arxiv.org/abs/2602.13407},
 }
 ```
+
