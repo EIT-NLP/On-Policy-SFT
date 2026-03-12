@@ -1,0 +1,27 @@
+# the on policy sft config will override default ppo_trainer.yaml
+
+hydra:
+  searchpath:
+    - file://verl/trainer/config
+
+defaults:
+  - ppo_trainer
+  - _self_
+
+trainer:
+  enable_train_temperature: false # Whether inference temperature is considered during training.
+  enable_train_reward: True # logging training rollout reward or not
+  
+actor_rollout_ref:
+  actor:
+    optim:
+      lr_warmup_steps: 10
+    entropy_coeff: 0
+  rollout:
+    tensor_model_parallel_size: 1
+
+algorithm:
+  adv_estimator: null
+
+ray_init:
+  num_cpus: 64
