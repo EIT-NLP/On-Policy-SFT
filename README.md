@@ -58,7 +58,9 @@ The datasets are located in `opsft/data`.
 - Training sets: `deepscaler` (DSR), `OpenThoughts3-1.2M/math_question` (OpenThoughts math-only), and `gsm8k`.
 - Benchmarks: files in `opsft/data/benchmarks`.
 
-## 🎯 On-Policy SFT Changes
+## 🎯 On-Policy SFT Built upon VERL
+
+We mainly modify the training objective, trainer workflow, validation protocol, and verifier integration to support efficient on-policy SFT.
 
 ### 🧠 Training Core
 
@@ -95,3 +97,5 @@ If you find our work useful, please consider citing our paper:
       url={https://arxiv.org/abs/2602.13407},
 }
 ```
+
+
