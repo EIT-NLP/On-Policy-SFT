@@ -1,26 +1,13 @@
-﻿<div align="center">
-<h1><img src="https://raw.githubusercontent.com/EIT-NLP/Awesome-Streaming-LLMs/main/Assets/wave.png" height="34" style="vertical-align: middle;" /> On-Policy Supervised Fine-Tuning for Efficient Reasoning</h1>
-</div>
-
-<p align="center">
-<a href="https://arxiv.org/abs/2602.13407" target="_blank"><img src="https://img.shields.io/badge/arXiv-2602.13407-DA644E?logo=arxiv" alt="arXiv"></a>
-<a href="https://github.com/EIT-NLP/On-Policy-SFT" target="_blank"><img src="https://img.shields.io/badge/GitHub-Code-white?logo=github" alt="GitHub"></a>
-<img src="https://img.shields.io/github/last-commit/EIT-NLP/On-Policy-SFT?logo=github&color=orange" alt="Last Commit">
-</p>
-
-<table>
+﻿<table>
   <tr>
     <td style="width: 45%;"><img src="figures/paper_fig1.png" alt="paper_figure_1" style="width: 100%;"></td>
     <td style="width: 45%;"><img src="figures/paper_fig2.png" alt="paper_figure_2" style="width: 100%;"></td>
   </tr>
 </table>
 
+# On-Policy SFT
+
 Code for [On-Policy Supervised Fine-Tuning for Efficient Reasoning](https://arxiv.org/abs/2602.13407).
-
-## News <a id="news"></a>
-
-- **[2026.03.12]** GitHub code release: [EIT-NLP/On-Policy-SFT](https://github.com/EIT-NLP/On-Policy-SFT).
-- **[2026.02.13]** arXiv preprint release: [On-Policy Supervised Fine-Tuning for Efficient Reasoning](https://arxiv.org/abs/2602.13407).
 
 > [!NOTE]
 > This repository focuses on on-policy SFT training and validation updates built on top of VERL.
